@@ -45,6 +45,9 @@ dependencies:
   # 로컬 스토리지
   hive: ^2.2.0
   hive_flutter: ^1.1.0
+  
+  # 데스크톱
+  window_manager: ^0.3.7
 
 dev_dependencies:
   flutter_test:
