@@ -1,0 +1,73 @@
+name: hanneung_ai_master
+description: 한능검 AI 마스터 - 한국사능력검정시험 2급 대비 앱
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  
+  # 상태 관리
+  provider: ^6.0.0
+  
+  # API & HTTP
+  http: ^1.1.0
+  dio: ^5.3.0
+  
+  # 인증 & 저장소
+  supabase_flutter: ^1.10.0
+  shared_preferences: ^2.2.0
+  
+  # UI & 애니메이션
+  flutter_animate: ^4.2.0
+  animations: ^2.0.7
+  lottie: ^2.4.0
+  
+  # 데이터 직렬화
+  json_serializable: ^6.7.0
+  
+  # 유틸리티
+  intl: ^0.19.0
+  timeago: ^3.5.0
+  
+  # 차트 & 그래프
+  fl_chart: ^0.65.0
+  
+  # 로깅
+  logger: ^2.0.0
+  
+  # 로컬 스토리지
+  hive: ^2.2.0
+  hive_flutter: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  build_runner: ^2.4.0
+  json_serializable: ^6.7.0
+  hive_generator: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/animations/
+    - assets/data/
+  
+  fonts:
+    - family: Pretendard
+      fonts:
+        - asset: assets/fonts/Pretendard-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Pretendard-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Pretendard-Bold.ttf
+          weight: 700
